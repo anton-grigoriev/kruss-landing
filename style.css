@@ -1,0 +1,239 @@
+.navbar-default {
+	background-color: #fff;
+}
+
+hr {
+	border-top:1px dotted #CCC;
+}
+
+table {
+	font-size: 12px;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.logo {
+	padding: 15px 0;
+	width: 130px;
+}
+
+.centered {
+	margin: 0 auto;
+}
+
+.wrapper {
+	border:1px solid #ddd;
+	border-radius: 5px;
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+
+.labdepot {
+	border: 2px solid #63B8FF;
+	border-radius: 5px;
+	display: table-cell;
+	margin-top: 5px;
+	padding: 5px 10px;
+	background-color: white;
+}
+
+.labdepot img {
+	margin-left: 20px;
+}
+
+.jumbotron {
+	margin-top: 100px;
+	background-image: url(img/blur.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.jumbotron {
+	padding: 30px;
+}
+
+.jumbotron h1 {
+	color: #fdd341;
+	font-size: 28px;
+	line-height: 1.4em;	
+}
+
+.jumbotron p {
+	color: white;
+	font-size: 14px;
+}
+
+.row h2 {
+	font-size: 21px;
+}
+
+.row h2 a {
+	text-decoration: underline;
+}
+
+.other p {
+	font-size: 12px;
+}
+
+.other h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.btn {text-transform: uppercase;}
+
+/*.row div
+{
+	border: 1px solid black;
+}
+*/
+
+/* Microscope */
+
+.row-end {
+	border-bottom: 2px solid #000;
+}
+
+/* div icons */
+
+.div-icons {
+	background-color:#787878; 
+	padding: 2rem 0rem;
+}
+
+.div-icons p {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 3rem;	
+}
+
+.nicer-list {
+	padding-left: 2.5rem;
+}
+
+.nicer-list li {
+	background: url(/img/bullet.png) 0 0.3rem no-repeat;
+	padding-left: 3rem;
+    list-style-type: none;
+    margin-bottom: 1rem
+}
+
+/* Аббе */
+
+.abbe,
+.polarimeter {
+	margin-top:10rem
+}
+
+.abbe h1,
+.polarimeter h1 {
+	font-size: 4.5rem;
+	margin: 3rem 0rem;
+}
+
+.abbe h2 {
+	font-size: 3rem;
+	margin:  2.5rem 0rem 0rem 1.5rem;	
+	line-height: 4rem;
+}
+
+.abbe-text p {
+	padding: 0rem 1.5rem;
+}
+
+/* Polarimeter */
+
+.polarimeter h1 {
+	padding-left: 1.5rem;
+}
+
+.polarimeter h2 {
+	margin-top: 1.3rem;
+}
+
+/* call me */
+
+.call-me {
+	position: fixed;
+	right: 5rem;
+	bottom: 5rem;	
+}
+
+
+
+.call-me button {
+	-webkit-animation-name: magentaPulse;
+    -webkit-animation-duration: 2s;
+
+    -webkit-animation-iteration-count: infinite;
+
+    border-radius: 4px;
+
+    box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset !important;
+
+    display: inline-block;
+
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+
+    -webkit-appearance: none;
+
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0 0 1.25em;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding-top: 0.75em;
+    padding-right: 1.5em;
+    padding-bottom: 0.8125em;
+    padding-left: 1.5em;
+    font-size: 1em;
+    background-color: #2daebf;
+    border-color: #238896;
+    color: white;
+}
+
+@-webkit-keyframes magentaPulse {
+    from {
+        background-color: #630030;
+        -webkit-box-shadow: 0 0 9px #333;
+    }
+    50% {
+        background-color: #a9014b;
+        -webkit-box-shadow: 0 0 18px #a9014b;
+    }
+    to {
+        background-color: #630030;
+        -webkit-box-shadow: 0 0 9px #333;
+    }
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
